@@ -59,6 +59,7 @@ class Search extends React.Component{
                         <li className={this.state.index===index?'red':'qwe'} key={index}>{item}</li>
                     ))}
                 </ul>
+                <p>{this.props.name}</p>
             </div>
         )
     }
